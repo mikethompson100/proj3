@@ -1,20 +1,9 @@
-import { BASE_URL, API_KEY } from './globals'
-import { useState, useEffect } from 'react'
-import axios from 'axios';
+
+
+
 
 const UserInputAtTop = (props) => {
   
-    useEffect(() => {
-        async function getConvertedAmount() {
-          //const responseFrom = await axios.get(`${BASE_URL}/${API_KEY}/latest/${props.currFrom}`)
-          //const responseTo = await axios.get(`${BASE_URL}/${API_KEY}/latest/${props.currTo}`)
-          //console.log(responseFrom);
-          //console.log(responseTo);
-          console.log("Went and got data");
-        }    
-        getConvertedAmount()
-      }, [props.gatherFormDataFunc])
-
     return (
       <div id="userinput" className="container">            
         <div className="sticky row">   
