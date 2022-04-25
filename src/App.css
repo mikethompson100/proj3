@@ -1,6 +1,7 @@
-body { background-position: -600px 910px; background-size: 1400px 900px; margin: 0; padding: 0; font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 1em; }
+body { color: #000; background-position: -600px 910px; background-size: 1400px 900px; margin: 0; padding: 0; font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 1em; }
 .sticky { background-color: green; display: flex; align-items: center; justify-content: center; color: white;  padding: 10px; position: fixed; z-index: 1; width: 100%; border-bottom: 2px solid #ddd; }
 #container { padding: 20px; position: relative; top: 140px; z-index: 0; background-color: #fff; width:80%; margin: 0 auto; border: #000 5px dashed;}
 button, input, select { width: auto; font-size: .7em; padding: 0; margin: 0; }
 footer { position: relative; top: 7px; }
 #userinput.container {  max-width: 100%; height: auto; }
+#mainContainer { position: relative; top: 140px; }
